@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1 Score,ROC AUC,Training Time (sec),Prediction Time (sec)
+Linear SVM,67.71,21.99,69.89,33.46,,0.36,0.0
+KNN,65.98,17.2,50.56,25.67,62.88,0.02,69.3
+Gradient Boosting,87.74,42.48,15.71,22.94,74.37,236.7,0.08
+Random Forest,87.7,41.53,14.42,21.4,73.33,187.52,1.54
+XGBoost,88.52,53.92,7.77,13.59,74.84,7.19,0.23
