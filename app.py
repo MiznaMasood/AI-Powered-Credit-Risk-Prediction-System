@@ -5,7 +5,6 @@ import joblib
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
 import os
-import datetime
 import io
 
 try:
@@ -647,12 +646,7 @@ page = st.sidebar.radio(
     label_visibility="collapsed"
 )
 
-st.sidebar.markdown(
-    f"""
-    <div class="sidebar-clock">🕒 {datetime.datetime.now().strftime("%A, %d %b %Y &nbsp;|&nbsp; %H:%M:%S")}</div>
-    """,
-    unsafe_allow_html=True
-)
+
 
 st.sidebar.markdown(
     """
